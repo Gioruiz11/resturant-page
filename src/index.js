@@ -1,2 +1,3 @@
-alert("henlo");
-alert("two");
+import { createSite } from './mainpage.js'
+
+createSite();
