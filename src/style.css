@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+
+#content {
+    height: 100vh;
+    width: 100%;
+}
+
+/* Start of Main Page */
+
+h1 {
+    height: 5vh;
+    background-color: black;
+    color: #d2cdb7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.body {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.6);
+    color: #d2cdb7;
+    width: 430px;
+    height: 300px;
+}
+
+/*  End of Main Page  */

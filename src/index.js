@@ -1,3 +1,3 @@
-import { createSite } from './mainpage.js'
+import { createFrontPage } from './mainpage.js'
 
-createSite();
+createFrontPage();
