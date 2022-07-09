@@ -1,0 +1,5 @@
+function createContactPage (){
+    
+}
+
+export {createContactPage};
