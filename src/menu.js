@@ -1,0 +1,5 @@
+function createMenuPage(){
+
+}
+
+export {createMenuPage};

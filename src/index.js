@@ -1,5 +1,6 @@
 import { createFrontPage } from './mainpage.js';
 import { createContactPage } from './contact.js';
+import { createMenuPage } from './menu.js';
 
 function createHeader(){
     let header = document.createElement("h1");
@@ -26,5 +27,6 @@ function createHeader(){
 }
 
 createHeader();
-createFrontPage();
-//createContactPage();
+//createFrontPage();
+//createMenuPage();
+createContactPage();
