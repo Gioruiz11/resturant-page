@@ -11,7 +11,6 @@ function createFrontPage (){
     
     // add center frontPage to content div
     let content = document.getElementById("content");
-    //content.style.backgroundImage = "url('../img/main-page.jpg')"
     content.append(body);
         
 }
