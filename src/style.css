@@ -50,7 +50,23 @@ a {
 
 /* Start of Menu page */
 
+.menubody {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    text-align: center;
+}
 
+h5 {
+    font-size: large;
+    margin-bottom: 10px;
+}
 
 /* end of Menu Page */
 
@@ -65,7 +81,7 @@ a {
     gap: 50px;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgb(5, 5, 5);
     color: white;
     text-align: center;
 }
@@ -77,3 +93,20 @@ h4 {
 }
 
 /* End of contact page */
+
+/* Start of reservation page */
+
+.reservationbody {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    text-align: center;
+}
+
+/* End of reservation page */ 

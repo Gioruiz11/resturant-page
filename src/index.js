@@ -1,6 +1,7 @@
 import { createFrontPage } from './mainpage.js';
 import { createContactPage } from './contact.js';
 import { createMenuPage } from './menu.js';
+import { createReservationPage } from './reservation.js';
 
 function createHeader(){
     let header = document.createElement("h1");
@@ -26,7 +27,15 @@ function createHeader(){
     content.append(header);
 }
 
+function clearDOM(){
+    let content = document.getElementById("content");
+    let toDelete = content.childNodes[2];
+    content.removeChild(toDelete);
+}
+
 createHeader();
-//createFrontPage();
+createFrontPage();
+clearDOM();
 //createMenuPage();
-createContactPage();
+//createContactPage();
+//createReservationPage();

@@ -1,6 +1,7 @@
 function createFrontPage (){
 
     let body = document.createElement("div");
+    body.style.backgroundImage = "url('../img/main-page.jpg')"
     body.classList.add("body");
 
     let center = document.createElement("div");
@@ -10,7 +11,7 @@ function createFrontPage (){
     
     // add center frontPage to content div
     let content = document.getElementById("content");
-    content.style.backgroundImage = "url('../img/main-page.jpg')"
+    //content.style.backgroundImage = "url('../img/main-page.jpg')"
     content.append(body);
         
 }
